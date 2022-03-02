@@ -6,6 +6,7 @@ import Header from './Component/Header';
 import WithRedux from './Component/WithRedux';
 import ByAxios from './Component/ByAxios';
 import React from 'react';
+import FunctionalCom from './Component/FunctionalCom';
 class App extends React.Component {
   render(){
     return (
@@ -16,6 +17,7 @@ class App extends React.Component {
             <Route path='/' element={<Home />} />
             <Route path='/withredux' exact element={<WithRedux />} />
             <Route path='/byaxios' exact element={<ByAxios />} />
+            <Route path='/func' exact element={<FunctionalCom />} />
           </Routes>
         </Router>
       </div>

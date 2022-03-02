@@ -8,6 +8,7 @@ class Menu extends React.Component{
                 <Link to="/">WithoutRedux</Link>
                 <Link to="/withredux">WithRedux</Link>
                 <Link to="/byaxios">ByAxios</Link>
+                <Link to="/func">Functional Component</Link>
             </div>
         )
     }
